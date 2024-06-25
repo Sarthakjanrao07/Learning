@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Push And Pop</title>
+</head>
+<body>
+  
+
+  <script>
+
+    //----------------push and pop -------------------
+
+    let arr = [1,2,3];
+    console.log(arr);
+   /* arr.push(6);
+    console.log(arr);
+    console.log('Popped : ' + arr.pop());
+    console.log(arr);
+    console.log('Popped : ' + arr.pop());
+    console.log(arr);*/
+
+//---------------unshift and Shift------------------
+
+    /*arr.unshift(10);
+    console.log(arr);
+    arr.shift();
+    console.log(arr);*/
+
+    //-------splice(start,noofelemnt)--------------------------
+
+    /*let arrr = [3,5,7,6];
+    console.log(arrr);
+    arrr.splice(1,3);
+    console.log(arrr);*/
+    
+    //---------------toString()--------------------------
+    /*let arr1 = [3,5,7,6];
+    console.log(arr1.toString());*/
+
+    // ----------------sort() and valueOf()-------------------
+    let arr2 = [3,5,7,6,9];
+    arr2.sort();
+    console.log(arr2);
+
+    arr2.valueOf();
+    console.log(arr2);
+    
+    // -----array are reference Destructuring-------------------
+    let arr3 = arr2;  //reference to arr2
+    arr3[0] = 99;
+    console.log(arr2);
+
+    let [a,b,c,d] = arr2;
+    console.log(a +" "+ b + " " + c + " " + d );
+
+
+  </script>
+</body>
+</html>

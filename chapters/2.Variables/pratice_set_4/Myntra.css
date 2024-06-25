@@ -1,0 +1,19 @@
+.add_to_bag{
+  padding: 4px 16px;;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(89, 235, 89);
+}
+.add_to_item{
+  padding: 4px 16px;;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(89, 235, 89);
+}
+.add_to_wishlist{
+  padding: 4px 20px;;
+  border: 2px black solid;
+  border-radius: 10px;
+  background-color: none;
+  text-transform: uppercase;
+}

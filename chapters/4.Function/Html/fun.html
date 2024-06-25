@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Function</title>
+</head>
+<body>
+  
+
+  <script>
+    let age = 21;
+
+    function printAge(){
+      console.log(`Your age is ${age}`);
+    }
+    printAge();
+
+    age = 30;
+    printAge();
+    age = 90;
+    printAge();
+
+    function sum(a,b){
+      let sum = a+b;
+      return sum;
+    }
+    console.log(sum(4,5));
+    console.log(sum(14,5.2));
+    console.log(sum(40,50));
+    console.log(sum(-4,4));
+
+    function greet(name = 'Pyarre'){
+      console.log(`namaste! ${name} uncle`);
+    }
+    greet();
+    greet('Sarthak');
+
+
+
+  </script>
+</body>
+</html>

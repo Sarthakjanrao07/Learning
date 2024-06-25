@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Exercise</title>
+
+</head>
+<body>
+  
+
+
+  <script>
+    /*let myntra = {
+      setCompany:'oppo',
+      setPrice:'4500',
+      Quality: 'Good',
+   
+    };
+    console.log(myntra.setPrice);*/
+
+    let Product = {
+      brand : 'System',
+      size: 'Xl',
+      fit: 'Slim-fit',
+      'delivery-time': 'Same Day Delivery',
+    };
+
+    console.log(Product['delivery-time']);
+
+    let myProduct = Product;
+    console.log(Product);
+    myProduct.size = 'M';
+    console.log(Product);
+    myProduct.brand = 'AllenSolly';
+    console.log(Product);
+
+    let yum = Product;
+    yum.brand = 'peterEngland';
+    yum.fit = 'Regular';
+    yum.size = 'XXl';
+    console.log(Product);
+    yum['delivery-time'] = '2 days delivery';
+    console.log(Product);
+
+    let  msg = {
+        message :'Good Job',
+        status :'Complete!!!',
+    };
+     let {message,status} = msg;
+    console.log(message);
+    console.log(status);
+
+    function isIdenticalProduct(product1,product2 ){
+      if(typeof product1 !== 'object' || typeof product2 !== 'object'){
+        console.warns('Parameter passed was not an object');
+        return false;
+      }
+      if(product1 == product2){
+      return true; 
+      }
+
+      if(product1.brand === product2.brand &&
+        product1.size === product2.size &&
+        product1.fit === product2.fit)
+      {
+        return true;
+      }else{
+        return false;
+      }
+    }
+
+    let Product2 = {
+      brand : 'System',
+      size: 'S',
+      fit: 'Slim-fit',
+      'delivery-time': 'Same Day Delivery',
+    };
+    let Product3 = {
+      brand : 'grp',
+      size: 'M',
+      fit: 'Slim-fit',
+      'delivery-time': 'Same Day Delivery',
+    };
+    let Product4 = {
+      brand : 'System',
+      size: 'S',
+      fit: 'Slim-fit',
+      'delivery-time': 'Same Day Delivery',
+    };
+
+
+    console.log(isIdenticalProduct(Product,Product));
+    console.log(isIdenticalProduct(Product,Product2));
+    console.log(isIdenticalProduct(Product3,Product2));
+    console.log(isIdenticalProduct(Product2,Product4));
+  
+  </script>
+</body>
+</html>

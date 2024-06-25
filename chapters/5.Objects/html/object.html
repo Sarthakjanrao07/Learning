@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Objects</title>
+</head>
+<body>
+  
+
+
+
+  <script>
+    let product = {
+      company: 'mango',
+      price:50,
+      item_name:'T-shirt',
+    };
+    /*console.log(product);
+    console.log(product.company);
+    console.log(product.item_name);
+    console.log(product.price);
+    product.company = 'banana';
+    console.log(product);
+
+    let pName = 'item_name';
+    console.log(product[pName]);
+    let setPrice = 'price';
+    console.log(product[setPrice]);
+    let setCompany = 'company';
+    console.log(product[setCompany]);
+
+    delete product['company'];
+    delete product.company;
+    console.log(product);*/
+
+    let product1 = {
+      company :'Google',
+      price :   861,
+      add :     'pune',
+      displayPrice : function(){
+        console.log(`Your cart price: ${product1.price}`)
+      }
+    };
+
+    console.log(product['price']);
+    
+    product1.displayPrice();
+    product1.price = 200;
+    product1.displayPrice();
+ 
+
+  </script>
+</body>
+</html>

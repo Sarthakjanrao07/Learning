@@ -1,0 +1,14 @@
+
+body{
+  text-align: center;
+  background-color: rgb(144, 150, 26);
+  justify-content: center;
+}
+h1{
+  border: 1px solid yellow;
+  border-radius: 10px;
+}
+#b1,#b2,#b3{
+  background-color: aqua;
+  border-radius: 10px;
+}

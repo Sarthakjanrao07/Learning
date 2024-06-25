@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Even Odd</title>
+</head>
+<body>
+  
+
+
+  <script>
+    function isOdd(num){
+      let rem = num % 2;
+      if(rem == 0){
+        return `This number ${num} : Even `;
+      }else{
+        return `This number ${num} : Odd`;
+      }
+    }
+    /*console.log(isOdd(5));
+    console.log(isOdd(2));
+    console.log(isOdd(4));
+    console.log(isOdd(500));
+    console.log(isOdd(7));
+    console.log(isOdd(11));
+    console.log(isOdd(1));
+    console.log(isOdd(999));*/
+
+    function largeNum(num1,num2){
+      /*if(num1>num2){
+        return `${num1} is larger than ${num2}`;
+      }else if(num1 == num2){
+        return `${num2} is equal to ${num1}`;
+      }
+      else{
+        return `${num2} is larger than ${num1}`
+      }*/
+      return num1>num2 ? `${num1}`:`${num2}`;
+    }
+/*    console.log(largeNum(4,5));
+    console.log(largeNum(5,5));
+    console.log(largeNum(74,5));
+    console.log(largeNum(77,71));
+    console.log(largeNum(114,74));*/
+
+    function toFahrnit(celValue){
+      return (9/5*celValue + 32);
+    }
+    console.log(toFahrnit(38));
+    console.log(toFahrnit(0));
+    console.log(toFahrnit(100));
+
+  </script>
+</body>
+</html>

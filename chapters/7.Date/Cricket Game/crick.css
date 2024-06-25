@@ -1,0 +1,15 @@
+body{
+  text-align: center;
+}
+.b1{
+  width: 100px;
+  height: 100px;
+  border: none;
+  margin: 10px;
+  background-color: rgb(182, 175, 66);
+  border-radius:50px;
+}
+
+.choice{
+  height: 75px;
+}
